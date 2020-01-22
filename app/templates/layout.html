@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Twin Tech Labs - CoreUI Flask Admin</title>
+        <title>Twin Tech Labs - Flask App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,16 +14,21 @@
         <link href="{{ url_for('static', filename='css/flag-icon-css/css/flag-icon.min.css') }}" rel="stylesheet">
         <link href="{{ url_for('static', filename='css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
         <link href="{{ url_for('static', filename='css/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
-        <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.css') }}" rel="stylesheet">
         <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/theme.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/template.css') }}" rel="stylesheet">
 
         <!-- javascript -->
         <script src="{{ url_for('static', filename='js/popper.js/dist/umd/popper.min.js') }}"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/pace-progress/pace.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/perfect-scrollbar/dist/perfect-scrollbar.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/@coreui/coreui/dist/js/coreui.min.js') }}"></script>
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
     </head>
     <body>
         {% block body %}

@@ -5,7 +5,7 @@
 import os
 
 # Application settings
-APP_NAME = "Admin Flask Starter App"
+APP_NAME = "Flask Starter App"
 APP_SYSTEM_ERROR_SUBJECT_LINE = APP_NAME + " system error"
 
 # Flask settings

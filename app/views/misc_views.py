@@ -22,7 +22,7 @@ main_blueprint = Blueprint('main', __name__, template_folder='templates')
 
 @main_blueprint.route('/')
 def member_page():
-    return render_template('pages/index.html')
+    return render_template('pages/global.html')
 
 # The Admin page is accessible to users with the 'admin' role
 @main_blueprint.route('/admin')
