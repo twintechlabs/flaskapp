@@ -61,6 +61,7 @@ def create_user_page():
                         email_confirmed_at=datetime.datetime.utcnow())
             db.session.add(user)
             db.session.commit()
+            flash('You successfully created your user!', 'success')
         return redirect(url_for('main.user_admin_page'))
     return render_template('pages/admin/create_user.html',
                            form=form)
@@ -96,7 +97,8 @@ def user_profile_page():
         db.session.commit()
 
         # Redirect to home page
-        return redirect(url_for('main.user_profile_page'))
+        flash('You successfully updated your profile!', 'success')
+        return redirect(url_for('main.home_page'))
 
     # Process GET or invalid POST
     return render_template('pages/user_profile_page.html',
