@@ -1,13 +1,14 @@
-# FlaskApp starter app v1.2
+# FlaskApp starter app v0.9
 
-![Screenshot](https://github.com/twintechlabs/flaskdash/blob/master/app/static/images/screenshot.png)
+![Screenshot](https://github.com/twintechlabs/flaskapp/blob/master/app/static/images/screenshot.png)
 
 This code base serves as starting point for writing your next Flask application.
 
 It's based on the awesome work of the Ling Thio and includes the open source
-CoreUI admin BootStrap theme and a number of enhancements to the base Flask
+BootStrap ThemesGuide theme and a number of enhancements to the base Flask
 Starter app including adding basic user management and a separate view file for
-API code.
+API code. This template is designed as a way to quickly get started building a
+wide variety of applications based on Python and Flask.
 
 ## Code characteristics
 
@@ -103,7 +104,7 @@ If you make changes in the Models and run into DB schema issues, delete the sqli
 ## Acknowledgements
 
 With thanks to the following Flask extensions:
-* [CoreUI](https://coreui.io/)
+* [ThemesGuide](https://github.com/ThemesGuide/bootstrap-themes)
 * [Alembic](http://alembic.zzzcomputing.com/)
 * [Flask](http://flask.pocoo.org/)
 * [Flask-Login](https://flask-login.readthedocs.io/)
