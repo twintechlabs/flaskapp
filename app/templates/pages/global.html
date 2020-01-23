@@ -52,9 +52,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#grid">Grid</a>
                     </li>
+                    {% if current_user.is_authenticated: %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('user.logout') }}">Sign out</a>
+                    </li>    
+                    {% else %}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('user.login') }}">Sign In / Signup</a>
-                    </li>                    
+                    </li>                              
+                    {% endif %}                
                 </ul>
             </div>
         </div>
