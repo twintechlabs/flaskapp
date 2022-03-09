@@ -1,4 +1,4 @@
-# FlaskApp starter app v0.9
+# FlaskApp starter app v1.5
 
 ![Screenshot](https://github.com/twintechlabs/flaskapp/blob/master/app/static/images/screenshot.png)
 
